@@ -1,0 +1,15 @@
+<p>details-component working </p>
+
+<div *ngIf="product">
+
+  <h1>{{product.title}}</h1>
+
+  <div class="center">
+    <div class="product-image-block">
+      <img src="{{product.images[0]}}">
+    </div>
+    <label>Price</label>
+    <p>{{product.price}}</p>
+  </div>
+
+

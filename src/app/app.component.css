@@ -1,0 +1,32 @@
+p {
+  font-family: Lato;
+}
+body {
+  font-family: Lato;
+  color: rgb(16, 13, 13);
+}
+
+
+
+.navbar-text a.active {
+  color: blue;
+}
+
+.headline {
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid pink;
+  
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.navbar {
+  justify-content: space-between;
+  
+}
+
+span {
+  padding-left: 2rem;
+}
